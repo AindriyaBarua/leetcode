@@ -1,7 +1,7 @@
 import java.util.*;
 import java.lang.String;
 
-class FrequencySortLetters {
+class FrequencySortLetters1 {
     public static String frequencySort(String s) {
         Map<Character, Integer> map = new HashMap<Character, Integer>();
         for(int i = 0; i< s.length(); i++)
